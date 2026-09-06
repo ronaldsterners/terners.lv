@@ -1,3 +1,10 @@
+@font-face {
+  font-family: 'Montenegrin Gothic One';
+  src: url('MontenegrinGothicOne-Regular (1).ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -10,7 +17,7 @@ html, body {
 body {
   background: #222;
   color: #C0FF00;
-  font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+  font-family: 'Montenegrin Gothic One', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 
   display: flex;
   align-items: center;
@@ -28,8 +35,9 @@ section {
 
 h1 {
   font-size: 5em;
-  font-weight: 600;
-  letter-spacing: 0.02em
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  font-family: 'Montenegrin Gothic One', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 ul {
